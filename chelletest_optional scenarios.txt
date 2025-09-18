@@ -1,0 +1,9 @@
+Thoughts
+1. Scenario -- Register a new user_id
+Check via SQL -- Verify new entry in users Table
+
+2. Scenario -- Place an order 
+Check via SQL -- Confirm order and items inserted
+
+3. Scenario -- Cancel order (delete/update)
+Check via SQL -- Validate cascade or soft delete
