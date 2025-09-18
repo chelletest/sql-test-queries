@@ -1,0 +1,28 @@
+-- Users
+INSERT INTO users (name, email) VALUES
+('Alice', 'alice@example.com'),
+('Bob', 'bob@example.com'),
+('Charlie', 'charlie@example.com'),
+('Alice', 'alice.duplicate@example.com');  -- Deliberate duplicate name
+
+-- Products
+INSERT INTO products (name, price, stock) VALUES
+('Laptop', 1200.00, 5),
+('Headphones', 150.00, 10),
+('Mouse', 25.00, 0),  -- Out of stock
+('Keyboard', 45.00, 8);
+
+-- Orders
+INSERT INTO orders (user_id, order_date, total_amount) VALUES
+(1, '2025-09-15 10:00:00', 1350.00),
+(2, '2025-09-16 14:30:00', 150.00),
+(1, '2025-09-17 09:00:00', 70.00);
+
+-- Order Items
+INSERT INTO order_items (order_id, product_id, quantity, price) VALUES
+(1, 1, 1, 1200.00),
+(1, 2, 1, 150.00),
+(2, 2, 1, 150.00),
+(3, 4, 1, 45.00),
+(3, 3, 1, 25.00);  -- Ordered product that's out of stock!
+
