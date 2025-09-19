@@ -3,7 +3,7 @@ This repository contains a collection of MySQL queries designed for managing and
 
 # Database Structure
 - Tables : See the table_schema.txt file for the structure of tables
-- Data : See the mock_data.txt file file for sample data used in the databse
+- Data : See the mock_data.txt file for sample data used in the databse
 - Queries : See the query.sql file for SQL queries used to analyse and manage data
 
 # How to run queries from MySQL prompt
