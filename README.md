@@ -2,9 +2,9 @@
 This repository contains a collection of MySQL queries designed for managing and analysing data in an e-commerce database. The queries in the repo cover various operations such as retrieving data, aggregating results and managing relationships between tables.
 
 # Database Structure
-Tables : See the table_schema.txt file for the structure of tables
-Data : See the mock_data.txt file file for sample data used in the databse
-Queries : See the query.sql file for SQL queries used to analyse and manage data
+- Tables : See the table_schema.txt file for the structure of tables
+- Data : See the mock_data.txt file file for sample data used in the databse
+- Queries : See the query.sql file for SQL queries used to analyse and manage data
 
 # How to run queries from MySQL prompt
 - Open MySQL : I used the terminal you can also use MySQL workbench 
